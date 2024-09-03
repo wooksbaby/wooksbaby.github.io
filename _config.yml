@@ -22,12 +22,13 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Wooksbaby"
 description              : "Living a life of struggle."
 url                      : "https://wooksbaby.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+baseurl                  : ""  # 사용자 페이지의 경우 빈 문자열로 설정
+repository               : "wooksbaby/wooksbaby.github.io"  # GitHub 리포지토리 경로
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
+
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -230,6 +231,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-archives
 
 # mimic GitHub Pages with --safe
 whitelist:
